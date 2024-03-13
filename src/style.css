@@ -1,0 +1,140 @@
+.eth{
+    padding: 100px;
+    font-family: lato
+    ;
+}
+.eth-form label{
+    font-size: 50px;
+}.login-container {
+    background-color: #2f2f2f;
+    border-radius: 8px;
+    box-shadow: rgb(31 31 31 / 17%) 0px -23px 25px 0px inset,
+      rgb(108 108 108 / 23%) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .paragraph {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    background: none;
+    border: 1px solid #353535;
+    padding: 15px 23px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #979797;
+    width: 100%;
+    box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,
+      rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  .input-group input:focus {
+    border-color: #0173ed;
+    outline: none;
+  }
+  
+  button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0173ed;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0173ed;
+  }
+  
+  .bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .bottom-text a {
+    color: #0173ed;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .bottom-text a:hover {
+    color: #3f95f2;
+  }
+  .button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  
